@@ -1,0 +1,135 @@
+{
+  "generatedAt": "2025-10-02T15:36:53.193Z",
+  "rulebook": {
+    "name": "ERC-3643 Baseline (ABI)",
+    "version": "0.2",
+    "source": "Phase2-Lite + HKMA/SFC"
+  },
+  "summary": {
+    "pass": 17,
+    "warn": 0,
+    "info": 0,
+    "fail": 0
+  },
+  "items": [
+    {
+      "id": "E3643-01",
+      "title": "Token exposes identityRegistry getter",
+      "contract": "Token",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "E3643-02",
+      "title": "Token allows wiring the IdentityRegistry",
+      "contract": "Token",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "E3643-03",
+      "title": "Token exposes compliance hooks (at least one of mint/forcedTransfer)",
+      "contract": "Token",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "E3643-04",
+      "title": "ClaimTopicsRegistry exposes topic management",
+      "contract": "ClaimTopicsRegistry",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "E3643-05",
+      "title": "TrustedIssuersRegistry exposes issuer management",
+      "contract": "TrustedIssuersRegistry",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "E3643-06",
+      "title": "IdentityRegistry exposes verification surface",
+      "contract": "IdentityRegistry",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "E3643-07",
+      "title": "Upgradeable-style init exists (best-effort)",
+      "contract": "IdentityRegistry",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "HKMA-01",
+      "title": "Address freezing capability (incident control)",
+      "contract": "Token",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "HKMA-02",
+      "title": "Partial token freeze (granular remediation)",
+      "contract": "Token",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "HKMA-03",
+      "title": "Recovery flow for lost wallets",
+      "contract": "Token",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "HKMA-04",
+      "title": "Batch operations for efficiency",
+      "contract": "Token",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "SFC-01",
+      "title": "KYC/AML gating via IdentityRegistry (wiring function present)",
+      "contract": "Token",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "SFC-02",
+      "title": "IdentityRegistry exposes verification",
+      "contract": "IdentityRegistry",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "SFC-03",
+      "title": "ClaimTopicsRegistry: add/remove topics and list",
+      "contract": "ClaimTopicsRegistry",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "SFC-04",
+      "title": "TrustedIssuersRegistry: manage issuers & topics",
+      "contract": "TrustedIssuersRegistry",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "SFC-05",
+      "title": "Operational role separation (agent role)",
+      "contract": "Token",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "SFC-06",
+      "title": "Compliance module wiring",
+      "contract": "Token",
+      "result": "PASS",
+      "detail": ""
+    }
+  ]
+}

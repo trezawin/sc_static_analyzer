@@ -1,0 +1,6 @@
+{
+    "Token": "artifacts/@tokenysolutions/t-rex/contracts/token/Token.sol/Token.json",
+    "IdentityRegistry": "artifacts/@tokenysolutions/t-rex/contracts/registry/implementation/IdentityRegistry.sol/IdentityRegistry.json",
+    "ClaimTopicsRegistry": "artifacts/@tokenysolutions/t-rex/contracts/registry/implementation/ClaimTopicsRegistry.sol/ClaimTopicsRegistry.json",
+    "TrustedIssuersRegistry": "artifacts/@tokenysolutions/t-rex/contracts/registry/implementation/TrustedIssuersRegistry.sol/TrustedIssuersRegistry.json"
+  }
